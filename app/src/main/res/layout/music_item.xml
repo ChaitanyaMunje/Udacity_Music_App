@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color">
+
+    <ImageView
+        android:layout_width="@dimen/img"
+        android:layout_height="@dimen/img"
+        android:src="@mipmap/ic_launcher"
+        android:padding="@dimen/pad_img"
+        android:id="@+id/music_img"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/music_name"
+        android:layout_toEndOf="@id/music_img"
+        android:id="@+id/music_name_txt"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/txt_art_name"
+        android:layout_marginTop="@dimen/grid_padding"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_name"
+        android:id="@+id/artist_name_txt"
+        android:layout_toEndOf="@id/music_img"
+        android:layout_below="@id/music_name_txt"
+        android:textColor="@color/text_color"
+        />
+
+
+    <ImageButton
+        android:layout_width="@dimen/img"
+        android:layout_height="@dimen/img"
+        android:id="@+id/playbtn"
+        android:layout_alignParentEnd="true"
+        android:padding="@dimen/dime"
+        android:src="@drawable/ic_play"
+        android:background="@android:color/transparent"
+        />
+
+</RelativeLayout>

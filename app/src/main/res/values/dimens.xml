@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grid_padding">10dp</dimen>
+    <dimen name="img_dimen">200dp</dimen>
+    <dimen name="img_margin">30dp</dimen>
+    <dimen name="mus_txt">30sp</dimen>
+    <dimen name="txt_art_name">20sp</dimen>
+    <dimen name="img_btn_top">100dp</dimen>
+    <dimen name="img_pad_top">5dp</dimen>
+    <dimen name="img">90dp</dimen>
+
+    <dimen name="pad_img">15dp</dimen>
+    <dimen name="dime">25dp</dimen>
+</resources>
